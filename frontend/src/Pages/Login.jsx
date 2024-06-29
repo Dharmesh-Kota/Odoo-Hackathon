@@ -74,7 +74,7 @@ export default function Login() {
       .then((response) => {
         const { token, role } = response.data;
         localStorage.setItem("token", JSON.stringify(token));
-        localStorage.setItem("role", JSON.stringify(role));
+        localStorage.setItem("role", role);
         setIsLoggedIn(true);
         setRole(role);
         navigate("/");

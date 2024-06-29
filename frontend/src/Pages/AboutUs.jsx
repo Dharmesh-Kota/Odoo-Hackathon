@@ -56,7 +56,7 @@ function AboutUS() {
                         className="mt-1 mb-1 my-div"
                         style={{ fontFamily: "Quicksand" }}
                       >
-                        Members
+                        Members:
                       </div>
                       <h5 style={{ fontFamily: "Quicksand" }}>
                         <a
@@ -64,7 +64,34 @@ function AboutUS() {
                           href="#"
                           target="_blank"
                         >
-                          ABC
+                          Ayushi Patel
+                        </a>
+                      </h5>
+                      <h5 style={{ fontFamily: "Quicksand" }}>
+                        <a
+                          style={{ textDecoration: "none" }}
+                          href="#"
+                          target="_blank"
+                        >
+                        Dharmesh Kota
+                        </a>
+                      </h5>
+                      <h5 style={{ fontFamily: "Quicksand" }}>
+                        <a
+                          style={{ textDecoration: "none" }}
+                          href="#"
+                          target="_blank"
+                        >
+                        Shubham Chaurasiya
+                        </a>
+                      </h5>
+                      <h5 style={{ fontFamily: "Quicksand" }}>
+                        <a
+                          style={{ textDecoration: "none" }}
+                          href="#"
+                          target="_blank"
+                        >
+                        Manoj Dhundhalwa                                                
                         </a>
                       </h5>
                     </div>

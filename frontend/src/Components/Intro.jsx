@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Typography, Container, Box } from "@mui/material";
-import image1 from "../images/image1.jpg";
+import image1 from "../images/earth.webp";
 
 export default function Intro() {
   return (
@@ -41,23 +41,23 @@ export default function Intro() {
               variant="h1"
               sx={{
                 fontSize: "clamp(2.5rem, 6vw, 4rem)",
+                fontFamily: "System-ui",
                 lineHeight: "1.2",
                 fontWeight: "bold",
+                color: "white",
               }}
             >
-              Our latest products
+              E-CycleNet
             </Typography>
             <Typography
-              color="text.secondary"
+              color="white"
               sx={{
                 mt: 2,
-                width: { xs: "90%", md: "60%" },
+                width: { xs: "90%", md: "90%" },
                 fontSize: "clamp(1rem, 2.5vw, 1.25rem)",
               }}
             >
-              Explore our cutting-edge dashboard, delivering high-quality
-              solutions tailored to your needs. Elevate your experience with
-              top-tier features and services.
+              Your Waste, Our Responsibility
             </Typography>
           </Box>
         </Box>

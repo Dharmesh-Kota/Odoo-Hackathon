@@ -130,6 +130,7 @@ function NavBar() {
               variant="text"
               onClick={() => navigate("/")}
               sx={{
+                color: "#296066",
                 m: 1,
                 borderRadius: 0,
                 borderBottom: "1px solid transparent", // Corrected the typo
@@ -143,6 +144,7 @@ function NavBar() {
               variant="text"
               onClick={() => navigate("/about-us")}
               sx={{
+                color: "#296066",
                 m: 1,
                 borderRadius: 0,
                 borderBottom: "1px solid transparent", // Corrected the typo
@@ -156,6 +158,7 @@ function NavBar() {
               variant="text"
               onClick={() => navigate("/history")}
               sx={{
+                color: "#296066",
                 m: 1,
                 borderRadius: 0,
                 borderBottom: "1px solid transparent", // Corrected the typo
@@ -169,6 +172,7 @@ function NavBar() {
               variant="text"
               onClick={() => navigate("/appointments")}
               sx={{
+                color: "#296066",
                 m: 1,
                 borderRadius: 0,
                 borderBottom: "1px solid transparent", // Corrected the typo

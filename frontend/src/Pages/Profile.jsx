@@ -478,7 +478,7 @@ const Profile = () => {
                         id="location"
                         label="Location"
                         size="small"
-                        value={location === "" ? "N/A" : location}
+                        value={location === "" ? " " : location}
                         InputProps={{
                           readOnly: true,
                         }}
@@ -580,7 +580,7 @@ const Profile = () => {
                               variant="outlined"
                               onClick={handleClickOpen}
                             >
-                              Add more
+                              Add Waste
                             </Button>
                             <Dialog
                               open={open}
